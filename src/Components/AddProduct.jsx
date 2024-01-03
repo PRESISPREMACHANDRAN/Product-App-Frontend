@@ -39,7 +39,7 @@ const AddProduct = () => {
               </div>
               <div className="col-col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                 <label htmlFor="" className="form-label">
-                  Category
+                  Category of the product
                 </label>
                 <input type="text" className="form-control" />
               </div>
