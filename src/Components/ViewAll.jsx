@@ -48,9 +48,29 @@ const ViewAll = () => {
                         <p class="card-text">Rating : {value.rating}</p>
                         <p class="card-text">stock: {value.stock}</p>
                         <img
-                          src={value.images}
+                          src={value.images[0]}
                           class="card-img-top"
-                          alt="..."
+                          alt="image1"
+                        />
+                        <img
+                          src={value.images[1]}
+                          class="card-img-top"
+                          alt="image2"
+                        />
+                        <img
+                          src={value.images[2]}
+                          class="card-img-top"
+                          alt="image3"
+                        />
+                        <img
+                          src={value.images[3]}
+                          class="card-img-top"
+                          alt="image4"
+                        />
+                        <img
+                          src={value.images[4]}
+                          class="card-img-top"
+                          alt="image5"
                         />
                         <a href="#" class="btn btn-primary">
                           Add to cart
